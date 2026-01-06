@@ -189,6 +189,7 @@ section {
   background-color: #0f0f0f;
 }
 .hero {
+  position: relative;
   background-image: url("images/hero.jpg");
   height: 80vh;
   background-size: cover;
