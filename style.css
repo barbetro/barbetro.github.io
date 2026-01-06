@@ -277,4 +277,15 @@ section {
   opacity: 1;
   transform: none;
 }
+/* Animasi fade sederhana */
+.fade-section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease;
+}
+
+.fade-section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 

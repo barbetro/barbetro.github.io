@@ -162,5 +162,22 @@
   });
 </script>
 
+<script>
+  function fadeOnScroll() {
+    const sections = document.querySelectorAll('.fade-section');
+    const triggerBottom = window.innerHeight * 0.9; // 90% dari tinggi layar
+
+    sections.forEach(section => {
+      const sectionTop = section.getBoundingClientRect().top;
+
+      if(sectionTop < triggerBottom){
+        section.classList.add('show');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', fadeOnScroll);
+  window.addEventListener('load', fadeOnScroll); // biar muncul kalau sudah terlihat di awal
+</script>
 </body>
 </html>
