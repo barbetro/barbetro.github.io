@@ -211,3 +211,8 @@ section {
 .hero * {
   position: relative;
 }
+@media (min-width: 1024px) {
+  .hero {
+    min-height: 70vh;
+  }
+}
