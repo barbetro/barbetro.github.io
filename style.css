@@ -55,19 +55,21 @@ h2 {
 }
 
 /* SERVICES */
-.service-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+.services .service-list div {
+  background-color: rgba(30, 30, 30, 0.85); /* gelap semi transparan */
+  color: #FFD700; /* teks emas */
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
   text-align: center;
 }
-
-.service-list div {
-  background: white;
-  padding: 20px;
-  border-radius: 8px;
-  font-weight: bold;
+.services .service-list div:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  cursor: pointer;
 }
+
 
 /* ABOUT */
 .about p {
