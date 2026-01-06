@@ -188,3 +188,14 @@ body {
 section {
   background-color: #0f0f0f;
 }
+.hero {
+  background-image: url("images/hero.jpg");
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
