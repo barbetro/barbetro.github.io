@@ -191,7 +191,8 @@ section {
 .hero {
   position: relative;
   background-image: url("images/hero.jpg");
-  height: 80vh;
+  min-height: 80vh;
+  overflow: hidden;
   background-size: cover;
   background-position: center;
   display: flex;
